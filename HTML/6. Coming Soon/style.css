@@ -1,0 +1,82 @@
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#forest {
+  position: relative;
+}
+
+#forest_pic {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.img_text {
+  color: #fff;
+  padding: 20px;
+  font: 32px Arial, sans-serif;
+}
+
+.top {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+}
+
+.center {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  bottom: 50%;
+}
+
+.center span {
+  font-size: 50px;
+}
+
+.center2 {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  bottom: 50%;
+}
+
+.line {
+  position: absolute;
+  top: 7px;
+  border: 1px solid #fff;
+  width: 150px;
+  margin: 10px 0;
+  opacity: 0.3;
+}
+
+.center2 span {
+  margin-top: 27px;
+  font-size: 20px;
+}
+
+.bottom {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+}

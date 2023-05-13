@@ -1,0 +1,99 @@
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  color: #fff;
+  padding: 50px;
+  background-color: rgb(63, 39, 39);
+}
+
+.header {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.sub-header {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+table th,
+td {
+  padding: 5px;
+}
+
+label {
+  font-size: 20px;
+  padding: 0 60px;
+}
+
+table tr input {
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  padding: 0 5px;
+}
+
+table tr input:focus {
+  outline: none;
+}
+
+.gender {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.gender label {
+  padding: 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gender label:nth-child(1) {
+  padding-left: 68px;
+}
+
+.languages {
+  margin-left: 68px;
+}
+
+.languages input {
+  margin-bottom: 10px;
+}
+
+.edu {
+  margin: 20px 7px;
+}
+
+#essay {
+  margin: 0 0 20px 60px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.btns {
+  margin-left: 60px;
+}
+
+.btns button {
+  padding: 10px 35px;
+  color: rgb(63, 39, 39);
+}

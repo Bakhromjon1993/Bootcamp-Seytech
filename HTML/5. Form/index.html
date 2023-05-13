@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <p class="header">Application Form</p>
+    <p class="sub-header">Note: This for is to be submitted 30 days before the starting date</span>
+    <p class="title">Personal Information</span>
+    <form>
+      <table>
+        <tr>
+          <th><label for="fname">Name</label></th>
+          <td><input type="text" placeholder="Enter your name..." id="fname" name="fname"><br></td>
+        </tr>
+        <tr>
+          <th><label for="Address">Address</label></th>
+          <td><input type="text" placeholder="Enter your address..." id="Address" name="Address"><br></td>
+        </tr>
+        <tr>
+          <th><label for="email">E-mail</label></th>
+          <td><input type="text" placeholder="Enter your email..." id="email" name="email"><br></td>
+        </tr>
+        <tr>
+          <th><label for="grade">Grade</label></th>
+          <td><input type="text" placeholder="Enter your grade..." id="grade" name="grade"><br></td>
+        </tr>
+        <tr>
+          <th><label for="phone">Grade</label></th>
+          <td><input type="text" placeholder="+1" id="phone" name="phone"><br></td>
+        </tr>
+      </table>
+    </form>
+    <div class="title">Gender</div>
+    <form class="gender">
+      <label for="male">Male</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="female">Female</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="other">Other</label>
+      <input type="radio" id="other" name="gender" value="other">
+    </form>
+    <form action="">
+      <table>
+        <tr>
+          <th><label for="date">Date</label></th>
+          <td><input type="date" placeholder="mm/dd/yyyy" id="date" name="date"><br></td>
+        </tr>
+      </table>
+    </form>
+    <div class="title">Check all that apply</div>
+    <form class="languages">
+      <input type="checkbox" id="lang1" name="lang1" value="js">
+      <label for="lang1"> I want to learn JavaScript</label><br>
+      <input type="checkbox" id="lang2" name="lang2" value="react">
+      <label for="lang2"> I want to learn React</label><br>
+      <input type="checkbox" id="lang3" name="lang3" value="html">
+      <label for="lang3"> I want to learn HTML</label><br>
+      <input type="checkbox" id="lang4" name="lang4" value="css">
+      <label for="lang4"> I want to learn CSS</label><br>
+      <input type="checkbox" id="lang5" name="lang5" value="pyhton">
+      <label for="lang5"> I want to learn Python</label><br>
+      <input type="checkbox" id="lang6" name="lang6" value="c">
+      <label for="lang6"> I want to learn C++</label>
+    </form>
+    <div class="edu">
+      <label for="edu">Education level:</label>
+      <select name="edu" id="edu">
+        <option value="school">High School</option>
+        <option value="bachelors" selected>Bachelors</option>
+        <option value="masters">Master</option>
+      </select>
+    </div>
+    <div class="title">Essay Section</div>
+    <form action="">
+      <textarea name="essay" id="essay" placeholder="Enter essay here..." cols="30" rows="10"></textarea>
+      <div class="btns">
+        <button name="essay" type="submit">Submit</button>
+        <button name="essay" type="reset">Cancel</button>
+      </div>
+    </form>
+
+  </div>
+</body>
+
+</html>

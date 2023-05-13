@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  position: relative;
+}
+.box{
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  font: 40px Arial, "sans-serif";
+  padding: 20px;
+}
+
+#orange{
+  background-color: orangered;
+  z-index: 1;
+}
+
+#green{
+  background-color: yellowgreen;
+  left: 150px;
+  top: 150px;
+  z-index: 2;
+}
+#blue{
+  background-color: cornflowerblue;
+  left: 250px;
+  top: 50px;
+  z-index: 3;
+}

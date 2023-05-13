@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.dream{
+  position: relative;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text{
+  width: 100%;
+  position: absolute;
+  color: #fff;
+  font-size: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  top: 50%;
+  bottom: 50%;
+}
